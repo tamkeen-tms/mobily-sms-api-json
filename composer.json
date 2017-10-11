@@ -1,0 +1,26 @@
+{
+  "name": "tamkeenlms/mobily-sms-api-json",
+  "description": "A non-official API client for Mobily.ws SMS service",
+  "type": "library",
+  "keywords": [
+    "sms", "api", "sms-api", "mobily"
+  ],
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "~6.0",
+    "nesbot/carbon": "^1.21"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tamkeen LMS",
+      "email": "tamkeenlms@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "MobilyAPI\\": "/"
+    }
+  }
+}
