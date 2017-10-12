@@ -12,7 +12,7 @@ Simply create a client:
 Then use the request you want:
 
 ```php
-	$newMessage = new MobilyAPI\requests\SendMessage($client, numbers, message);
+	$newMessage = new MobilyAPI\Requests\SendMessage($client, numbers, message);
 	$response = $newMessage->send(); // Send the request
 	
 	$newMessage->sent(); // Tells you if it was sent successfully
