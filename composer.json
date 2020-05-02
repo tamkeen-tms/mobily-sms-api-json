@@ -6,9 +6,8 @@
     "sms", "api", "sms-api", "mobily"
   ],
   "require": {
-    "php": ">=5.6",
-    "guzzlehttp/guzzle": "^6.0",
-    "nesbot/carbon": "^1.0"
+    "guzzlehttp/guzzle": "^6.5",
+    "nesbot/carbon": "^2.33"
   },
   "license": "MIT",
   "authors": [
